@@ -6,7 +6,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nylon.jq.ax",
+  site: "https://arsolitt.github.io",
+  base: "/nylon-docs",
   integrations: [
     mermaid({
       autoTheme: true,
@@ -18,7 +19,7 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/encodeous/nylon",
+          href: "https://github.com/Arsolitt/nylon",
         },
       ],
       sidebar: [

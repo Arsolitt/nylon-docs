@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nylon.jq.ax/sitemap-index.xml
+Sitemap: https://arsolitt.github.io/nylon-docs/sitemap-index.xml

@@ -22,7 +22,8 @@ jobs:
       - name: Checkout nylon docs content
         uses: actions/checkout@v6
         with:
-          repository: encodeous/nylon
+          repository: Arsolitt/nylon
+          ref: main
           path: nylon
           sparse-checkout: |
             docs
